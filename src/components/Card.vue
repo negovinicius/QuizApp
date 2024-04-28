@@ -12,18 +12,27 @@
 </script>
 
 <template>
+  <div class="cards-container">
     <div class="card" @click="navigateToQuiz">
         <img :src="quiz.img"  alt="">
         <div class="card-text">
             <h2>{{quiz.name}}</h2>
-            <p>{{ quiz.questions.length }}</p>
         </div>
     </div>
+</div>
 </template>
 
 
 <style scoped>
 
+    .cards-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin: 0px 0px 2px 10px;
+      color: blueviolet;
+    }
 
     .card {
       width: 310px;
@@ -42,7 +51,6 @@
 
     .card .cardtext {
       padding: 0px;
-
     }
 
     .card .cardtext h2 {

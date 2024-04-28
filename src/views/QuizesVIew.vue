@@ -42,19 +42,22 @@
       margin-top: 10px;
       display: flex;
       align-items: center;
+      flex-direction: column;
+      text-align: center;
     }
 
     header h1 {
       font-weight: bold;
-      margin-right: 30px;
+      margin-bottom: 40px;
+      color: blueviolet;
     }
 
     header input {
       border: none;
-      background-color: rgba(0, 0, 0, 0.107);
+      background-color: rgba(137, 43, 226, 0.26);;
       padding: 10px;
       border-radius: 5px;
-      color: white;
+      color: blueviolet;
     }
     
     .options-container {

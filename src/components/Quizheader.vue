@@ -24,17 +24,18 @@ header {
 }
 
 header h4 {
+  color: blueviolet;
   font-size: 30px;
 }
 
 .bar {
   width: 300px;
   height: 50px;
-  border: 3px solid bisque;
+  border: 3px solid blueviolet;
 }
 .completion {
   height: 100%;
   width: 0%;
-  background-color: bisque;
+  background-color: blueviolet;
 }
 </style>

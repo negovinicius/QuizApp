@@ -34,6 +34,7 @@
 
 .question-container {
         margin-top: 20px;
+        color: blueviolet;
     }
     .question {
         font-size: 40px;
@@ -45,8 +46,8 @@
         cursor: pointer;
     }
     .option-label {
-        color: black;
-        background-color: bisque;
+        color: white;
+        background-color: blueviolet;
         width: 50px;
         height: 50px;
         font-size: 30px;
@@ -55,7 +56,7 @@
         justify-content: center;
     }
     .option-value {
-        color: white;
+        color: blueviolet;
         width: 100%;
         font-size: 30px;
         padding: 0 20px;

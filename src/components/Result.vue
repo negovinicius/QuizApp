@@ -14,7 +14,7 @@
             {{ numberOfCorrectAnswers }} /
             {{ quizQuestionLength }}
         </h1>
-        <RouterLink to="/">Go Back</RouterLink>
+        <RouterLink class="link" to="/">Go Back</RouterLink>
     </div>
 </template>
 
@@ -27,9 +27,17 @@
 
     p {
         font-size: 20px;
+        color: blueviolet;
     }
 
     h1 {
         font-size: 80px;
+        color: blueviolet;
+    }
+
+    .link {
+        text-decoration: none;
+        color: blueviolet;
+        font-size: 2em;
     }
 </style>

@@ -5,9 +5,8 @@ import  QuizesVIew from "../src/views/QuizesVIew.vue";
 </script>
 
 <template>
-  <div class="container"></div>
+<div class="container"></div>
 <RouterView></RouterView>
-
 </template>
 
 <style scoped>
