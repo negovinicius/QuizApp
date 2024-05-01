@@ -33,17 +33,20 @@
 <style scoped>
 
 .question-container {
-        margin-top: 20px;
-        color: blueviolet;
+        margin: 20px;
+        color: black;
+        display: flex;
     }
     .question {
         font-size: 40px;
         margin-bottom: 20px;
+        display: flex;
     }
     .option {
         display: flex;
         margin-bottom: 20px;
         cursor: pointer;
+        display: flex;
     }
     .option-label {
         color: white;

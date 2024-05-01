@@ -20,12 +20,19 @@
 
 <style scoped>
 header {
-  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 header h4 {
   color: blueviolet;
   font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .bar {

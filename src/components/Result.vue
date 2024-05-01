@@ -8,13 +8,13 @@
 
 <template>
     <div class="results">
-        <p>Your Results...</p>
+        <p>Your Results:</p>
 
         <h1>
             {{ numberOfCorrectAnswers }} /
             {{ quizQuestionLength }}
         </h1>
-        <RouterLink class="link" to="/">Go Back</RouterLink>
+      
     </div>
 </template>
 
@@ -22,22 +22,17 @@
 <style scoped >
     .results {
         text-align: center;
-        padding: 100px 0;
+        margin: 100px 0px;
     }
 
     p {
         font-size: 20px;
         color: blueviolet;
+        
     }
 
     h1 {
-        font-size: 80px;
+        font-size: 60px;
         color: blueviolet;
-    }
-
-    .link {
-        text-decoration: none;
-        color: blueviolet;
-        font-size: 2em;
     }
 </style>

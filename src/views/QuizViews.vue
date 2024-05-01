@@ -64,7 +64,43 @@ const onOptionselected = (isCorrect) => {
         :numberOfCorrectAnswers="numberOfCorrectAnswers"
         
     ></Result>
-
+  
+  <div class="message" v-if="showResults">
+    <div v-if="numberOfCorrectAnswers >= Math.ceil(quiz.questions.length) ">
+      <p>CONGRATULATIONS YOU ARE AN EINSTAIN</p>
+    </div>
+    <div v-else-if="numberOfCorrectAnswers >= Math.ceil(quiz.questions.length / 2) ">
+      <p>Almost there, you are very good!</p>
+    </div>
+    <div v-else-if="numberOfCorrectAnswers >= Math.ceil(quiz.questions.length /3) ">
+      <p>Just one this time, I know you can improve!</p>
+    </div>
+    <div v-else-if="showResults && numberOfCorrectAnswers < quiz.questions.length">
+      <p>It is from our mistakes that we get our best results, study more and try again!</p>
+    </div>
   </div>
-
+  <div class="link">
+    <RouterLink class="link2" to="/"><strong>Go Back</strong></RouterLink>
+  </div>
+</div>
 </template>
+
+<style scoped>
+  .message {
+    color: blueviolet;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .link {
+        font-size: 2em;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .link2 {
+      color: black;
+      text-decoration: none;
+    }
+</style>
