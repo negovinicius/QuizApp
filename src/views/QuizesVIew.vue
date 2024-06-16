@@ -64,11 +64,10 @@
   @import url('https://fonts.googleapis.com/css2?family=Freeman&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
     
     body {
-    background-image: url('../src/images/9a3549db4e370707dd394d1c484f16ce.jpeg');
+    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/11005174-fundo-de-educacao-criativa-com-material-escolar-vetor.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
     min-height: 100vh;
     margin: auto;
     display: flex;
@@ -76,24 +75,25 @@
     }
 
     header {
+      margin-top: 200px;
       align-items: center;
       flex-direction: column;
       text-align: center;
     }
 
     header h1 {
+      margin-bottom: 60px;
       text-align: top;
       font-weight: bold;
       font-family: "Josefin Sans", sans-serif;
     }
 
     header input {
-      margin-bottom: 300px;
-      background-color: transparent;
+      margin-bottom: 70px;
+      background-color: white;
       padding: 10px;
       border: 2px solid white;
       border-radius: 5px;
-      color: white;
     }
     input:hover {
       border-color: rgb(210, 13, 187);
