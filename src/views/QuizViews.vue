@@ -38,7 +38,18 @@ const onOptionselected = (isCorrect) => {
     }
 
     currentQuestionsIndex.value++
-}
+};
+const prevQuestion = () => {
+  if (currentQuestionsIndex.value > 0) {
+    currentQuestionsIndex.value--;
+  }
+};
+
+const nextQuestion = () => {
+  if (currentQuestionsIndex.value < quiz.questions.length - 1) {
+    currentQuestionsIndex.value++;
+  }
+};
 </script>
 
 <template>
@@ -56,7 +67,6 @@ const onOptionselected = (isCorrect) => {
     v-if="!showResults"
     :question="quiz.questions[currentQuestionsIndex]"
     @selectOption="onOptionselected"
-    
     ></Questions>
 
     <Result v-else
@@ -64,43 +74,53 @@ const onOptionselected = (isCorrect) => {
         :numberOfCorrectAnswers="numberOfCorrectAnswers"
         
     ></Result>
-  
+
+    <div class="navigation-buttons" v-if="!showResults">
+      <button @click="prevQuestion" :disabled="currentQuestionsIndex === 0">Voltar</button>
+    </div>
+    
   <div class="message" v-if="showResults">
     <div v-if="numberOfCorrectAnswers >= Math.ceil(quiz.questions.length) ">
-      <p>CONGRATULATIONS YOU ARE AN EINSTAIN</p>
+      <p>PARÁBENS VOCÊ ACERTOU TODAS, UM GÊNIO!</p>
     </div>
     <div v-else-if="numberOfCorrectAnswers >= Math.ceil(quiz.questions.length / 2) ">
-      <p>Almost there, you are very good!</p>
+      <p>Acertou a metade ein, muito bom!</p>
     </div>
     <div v-else-if="numberOfCorrectAnswers >= Math.ceil(quiz.questions.length /3) ">
-      <p>Just one this time, I know you can improve!</p>
+      <p>Você acertou só uma, sei que pode fazer melhor!</p>
     </div>
     <div v-else-if="showResults && numberOfCorrectAnswers < quiz.questions.length">
-      <p>It is from our mistakes that we get our best results, study more and try again!</p>
+      <p>Dessa vez você não acertou nenhuma questão, mas não desista tente novamente! </p>
     </div>
   </div>
   <div class="link">
-    <RouterLink class="link2" to="/"><strong>Go Back</strong></RouterLink>
+    <RouterLink class="link2" to="/"><strong>Pagina Inicial</strong></RouterLink>
   </div>
 </div>
 </template>
 
 <style scoped>
   .message {
-    color: blueviolet;
+    color: black;
     font-size: 20px;
     text-align: center;
     margin-bottom: 80px;
   }
   .link {
-        font-size: 2em;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    font-size: 2em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
     .link2 {
-      color: black;
-      text-decoration: none;
+    color: black;
+    text-decoration: none;
+    }
+    button {
+    font-size: large;
+    background-color: transparent;
+    margin-left: 20px;
+    border-radius: 15%;
     }
 </style>

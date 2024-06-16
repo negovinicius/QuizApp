@@ -2,11 +2,11 @@
     {
         "id": 1,
         "img": "https://marvel-b1-cdn.bc0a.com/f00000000026007/resilienteducator.com/wp-content/uploads/2012/11/AdobeStock_60467600_cup.jpg",
-        "name": "Math",
+        "name": "Matemática",
         "questions": [
             {
                 "id": 1,
-                "text": "8 ÷ 2(2 + 2)",
+                "text": "Calcule a equação; 8 ÷ 2(2 + 2)",
                 "options": [
                     {
                         "id": 1,
@@ -36,12 +36,12 @@
             },
             {
                 "id": 2,
-                "text": "sqrt(64) * 9",
+                "text": "Em uma gincana de férias, 75 crianças se inscreveram para participar das atividades de recreação. De modo a organizarem os jogos e atividades, eles verificaram a faixa etária dos inscritos e constataram que 2/5 das crianças têm mais de doze anos. Quantos participantes tem menos que 12 anos?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "4",
+                        "text": "40",
                         "isCorrect": false
                     },
                     {
@@ -53,13 +53,13 @@
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "72",
+                        "text": "45",
                         "isCorrect": true
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "144",
+                        "text": "20",
                         "isCorrect": false
                     }
                 ]
@@ -98,95 +98,95 @@
     },
     {
         "id": 2,
-        "img": "https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2017/12/DNA.png",
-        "name": "Biology",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKlmP8dwnl1z3EF9LU8pWHRpWPL-RcXwmQHpucC-N5N1vwHFr457s99sIZgZWKoeEeSWY&usqp=CAU",
+        "name": "Biologia",
         "questions": [
             {
                 "id": 1,
-                "text": "The Kreb Cycles occurs in the",
+                "text": "Quais plantas não possuem vasos condutores?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Mitochondria",
+                        "text": "Briófitas",
                         "isCorrect": true
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Nucleus",
+                        "text": "Pteridófitas",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Rough ER",
+                        "text": "Gimnospermas",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "Cystol",
+                        "text": "Angiospermas",
                         "isCorrect": false
                     }
                 ]
             },
             {
                 "id": 2,
-                "text": "How many oxygen molecules can hemoglobin hold",
+                "text": "Qual é o maior osso do corpo humano?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "1",
+                        "text": "Tíbia",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "2",
+                        "text": "Esterno",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "3",
+                        "text": "Cúbito",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "4",
+                        "text": "Fêmur",
                         "isCorrect": true
                     }
                 ]
             },
             {
                 "id": 3,
-                "text": "The cones see ___ while the rods see ___",
+                "text": "A qual reino as bactérias pertencem?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "black and white; color",
+                        "text": "Reino Fungi",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "color; black and white",
+                        "text": "Reino Monera",
                         "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "3D objects; 2D shapes",
+                        "text": "Reino Protista",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "2D shapes; 3D objects",
+                        "text": "Reino Plantae",
                         "isCorrect": false
                     }
                 ]
@@ -195,95 +195,580 @@
     },
     {
         "id": 3,
-        "img": "http://jobs.newscientist.com/getasset/c40a5488-11be-43b0-843f-a2e6ef9f0612/",
-        "name": "Chemistry",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe3UkI-dxKkKi5DKu-e4nXNV6qOYAZKJMgVYd8I3MJC4FwN79T7C2rLBnOM00U16HC0eY&usqp=CAU",
+        "name": "Química",
         "questions": [
             {
                 "id": 1,
-                "text": "What is the composition of table salt",
+                "text": "Qual a ligação presente na molécula da água?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "NaCl",
+                        "text": "Ligação covalente",
                         "isCorrect": true
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "K2",
+                        "text": "Ligação iônica",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "NaCl2C4H7",
+                        "text": "Ligação metálica",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "CH4",
+                        "text": "Nenhuma das alternativas",
                         "isCorrect": false
                     }
                 ]
             },
             {
                 "id": 2,
-                "text": "What is Potassium's chemical symbol",
+                "text": "O que é água destilada ?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "P",
+                        "text": "É a água que possui muitos sais minerais dissolvidos.",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Pt",
+                        "text": "É a água encontrada em rios e lagos.",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Pts",
+                        "text": "É a água própria para o consumo humano.",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "K",
+                        "text": "É a água que não possui sais minerais dissolvidos.",
                         "isCorrect": true
                     }
                 ]
             },
             {
                 "id": 3,
-                "text": "Which is not organinc",
+                "text": "Qual dos seguintes elementos é conhecido por ser um gás nobre e é frequentemente usado em lâmpadas de neon?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "CH4",
+                        "text": "Oxigênio (O)",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "NaCl",
+                        "text": "Argônio (Ar)",
                         "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "C2H6",
+                        "text": "Hidrogênio (H)",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "C3H8",
+                        "text": "Hélio (He)",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/0/00/Abecedario_Letras.jpg",
+        "name": "Português",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Assinale a alternativa em que o pronome oblíquo lhe está no lugar do pronome oblíquo o ou a, em desacordo com as orientações da norma culta.",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Pediu a Rita que lhe explicasse tudo.",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Então ela declarou-lhe que não voltaria mais.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "O cocheiro propôs-lhe voltar a primeira travessa, e ir por outro caminho.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Ele, para lhe ser agradável, estava sempre discretamente afastado.",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Qual é o sujeito da seguinte oração:  'Os alunos estudaram para a prova com dedicação? ' ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Estudaram",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Para a prova",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Dedicação",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Alunos",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Qual das palavras abaixo é um advérbio?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Alegre",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Alegremente",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Alegria",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Alegrou",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "id": 5,
+        "img": "https://thumbs.dreamstime.com/b/objetos-relacionados-da-geografia-57905788.jpg",
+        "name": "Geografia",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Qual é o maior país do mundo em extensão territorial?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Rússia",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "China",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Canadá",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Estados Unidos",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Qual é a capital da Austrália?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Sydney",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Melbourne",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Brisbane",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Canberra",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Qual é o rio mais longo do mundo?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Rio Amazonas",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Rio Nilo",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Rio Yangtzé",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Rio Mississippi",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "id": 6,
+        "img": "https://revista.reflexionesmarginales.com/wp-content/uploads/2020/04/12..jpg",
+        "name": "Filosofia",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Qual filósofo grego é conhecido como o 'Pai da Filosofia? '",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Tales de Mileto",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Aristóteles",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Platão",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Sócrates",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Qual das seguintes obras foi escrita por René Descartes?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "A República",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Crítica da Razão Pura",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Além do Bem e do Mal",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Discurso do Método",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Qual filósofo é conhecido pela frase 'O homem é a medida de todas as coisas? ' ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Heráclito",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Protágoras",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Parmênides",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Pitágoras",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "id": 7,
+        "img": "https://static.mundoeducacao.uol.com.br/mundoeducacao/2021/03/pre-historia.jpg",
+        "name": "História",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Em que ano ocorreu a Revolução Francesa?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "1776",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "1789",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "1815",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "1848",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Quem foi o primeiro imperador do Brasil?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Pedro II",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "João VI",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Dom Sebastião",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Pedro I",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Qual civilização antiga é famosa por suas pirâmides e faraós?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Mesopotâmia",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Egito Antigo",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Grécia Antiga",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Roma Antiga",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "id": 8,
+        "img": "https://static.vecteezy.com/ti/vetor-gratis/p1/17210789-programadores-ou-desenvolvedores-de-desenho-de-uma-unica-linha-criam-codigo-de-linguagem-de-programacao-na-frente-do-laptop-conceito-de-codigo-de-programacao-ilustracao-em-grafico-de-desenho-de-desenho-de-linha-continua-vetor.jpg",
+        "name": "Tecnologia",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Assinale a alternativa em que o pronome oblíquo lhe está no lugar do pronome oblíquo o ou a, em desacordo com as orientações da norma culta.",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Pediu a Rita que lhe explicasse tudo.",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Então ela declarou-lhe que não voltaria mais.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "O cocheiro propôs-lhe voltar a primeira travessa, e ir por outro caminho.",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Ele, para lhe ser agradável, estava sempre discretamente afastado.",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Qual é o sujeito da seguinte oração:  'Os alunos estudaram para a prova com dedicação? ' ",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Estudaram",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Para a prova",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Dedicação",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Alunos",
+                        "isCorrect": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Qual das palavras abaixo é um advérbio?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Alegre",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Alegremente",
+                        "isCorrect": true
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Alegria",
+                        "isCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Alegrou",
                         "isCorrect": false
                     }
                 ]

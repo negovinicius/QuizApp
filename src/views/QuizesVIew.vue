@@ -1,69 +1,108 @@
 <script setup>
     import q from "../data/quizes.json";
-    import {ref, watch} from "vue";
+    import {ref, watch, onMounted} from "vue";
     import Card from "../components/Card.vue";
 
     const quizes = ref(q)
     const search = ref("")
+    
+    const props = defineProps ({
+      quiz: {
+        type: Object,
+        required: true
+      },
+      });
+      
+      const containeRef = ref(null);
+
+      onMounted(() => {
+      const container = containeRef.value;
+      const text = container.innerText;
+      const colors = ['#EC0F90','#0AAF8C', '#9AD70E', '#F49822', '#FE3A1D']
+      container.innerHTML ="";
+
+      text.split('').forEach((char, index) => {
+        const span = document.createElement('span');
+        span.innerText = char;
+        span.className = 'colored-letter'
+        span.style.color = colors[index % colors.length];
+        container.appendChild(span);
+      });
+    });
 
     watch(search, () => {
       quizes.value = q.filter(quiz => quiz.name.toLowerCase().includes(search.value.toLocaleLowerCase()))
-    })
+    });
+
+   
 </script>
 
 <template>
-  <div>
-    <header>
-      <h1>Quizes</h1>
-      <input v-model.trim="search" type="text" placeholder="Search...">
-    </header>
-    <div class="options-container">
-      <Card v-for="quiz in quizes" :key="quiz.id" :quiz="quiz">
-
-      </Card>
-      <!-- v-for="quiz in quizes" :key="quiz.id"
-      <div class="card">
-        <img :src="quiz.img" alt="">
-        <div class="card-text">
-          <h2>{{quiz.name}}</h2>
-          <p>{{quiz.questions.length}}</p>
-        </div>
-      </div> -->
-    </div>
-  </div>
+        
+          <body>
+            <header>
+              <h1 ref="containeRef">Em qual área você tem mais conhecimento ?</h1>
+              <input v-model.trim="search" type="text" placeholder="Procurar..">
+            </header>
+            <div class="options-container">
+              <Card v-for="quiz in quizes" :key="quiz.id" :quiz="quiz" @click="() => navigateToQuiz(quiz.id)">
+              </Card>
+              <!-- v-for="quiz in quizes" :key="quiz.id"
+              <div class="card">
+                <img :src="quiz.img" alt="">
+                <div class="card-text">
+                  <h2>{{quiz.name}}</h2>
+                  <p>{{quiz.questions.length}}</p>
+                </div>
+              </div> -->
+            </div>
+          </body>
 </template>
 
 
 <style scoped>
-
+  @import url('https://fonts.googleapis.com/css2?family=Freeman&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+    
+    body {
+    background-image: url('../src/images/9a3549db4e370707dd394d1c484f16ce.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    }
 
     header {
-      margin-bottom: 10px;
-      margin-top: 10px;
-      display: flex;
       align-items: center;
       flex-direction: column;
       text-align: center;
     }
 
     header h1 {
+      text-align: top;
       font-weight: bold;
-      margin-bottom: 40px;
-      color: blueviolet;
+      font-family: "Josefin Sans", sans-serif;
     }
 
     header input {
-      border: none;
-      background-color: rgba(137, 43, 226, 0.26);;
+      margin-bottom: 300px;
+      background-color: transparent;
       padding: 10px;
+      border: 2px solid white;
       border-radius: 5px;
-      color: blueviolet;
+      color: white;
     }
-    
+    input:hover {
+      border-color: rgb(210, 13, 187);
+    }
     .options-container {
       display: flex;
       flex-wrap: wrap;
-      margin-top: 40px;
+      justify-content: center;
+      flex: 1;
     }
 
     /*CARD CONFIG*/ 

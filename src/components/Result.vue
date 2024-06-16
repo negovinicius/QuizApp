@@ -1,14 +1,13 @@
 <script setup>
     import {defineProps} from "vue";
-    import {RouterLink} from "vue-router"
+    import {RouterLink} from "vue-router";
 
     const {quizQuestionLength, numberOfCorrectAnswers} = defineProps (["numberOfCorrectAnswers", "quizQuestionLength"])
 </script>
 
-
 <template>
     <div class="results">
-        <p>Your Results:</p>
+        <p>Seu Resultado:</p>
 
         <h1>
             {{ numberOfCorrectAnswers }} /
@@ -27,12 +26,12 @@
 
     p {
         font-size: 20px;
-        color: blueviolet;
+        color: black;
         
     }
 
     h1 {
         font-size: 60px;
-        color: blueviolet;
+        color: black;
     }
 </style>

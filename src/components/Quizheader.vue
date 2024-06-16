@@ -11,7 +11,7 @@
 </script>
 <template>
   <header>
-    <h4>Question {{ questionStatus }}</h4>
+    <h4>Questão {{ questionStatus }}</h4>
     <div class="bar">
       <div class="completion" :style="{width: barPercentage}"></div>
     </div>
@@ -27,7 +27,7 @@ header {
 }
 
 header h4 {
-  color: blueviolet;
+  color: black;
   font-size: 30px;
   display: flex;
   justify-content: center;
@@ -38,11 +38,11 @@ header h4 {
 .bar {
   width: 300px;
   height: 50px;
-  border: 3px solid blueviolet;
+  border: 3px solid black;
 }
 .completion {
   height: 100%;
   width: 0%;
-  background-color: blueviolet;
+  background-color: black;
 }
 </style>
