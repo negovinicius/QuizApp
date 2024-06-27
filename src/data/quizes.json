@@ -685,90 +685,90 @@
         "questions": [
             {
                 "id": 1,
-                "text": "Assinale a alternativa em que o pronome oblíquo lhe está no lugar do pronome oblíquo o ou a, em desacordo com as orientações da norma culta.",
+                "text": "Qual empresa desenvolveu o sistema operacional Android?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Pediu a Rita que lhe explicasse tudo.",
+                        "text": "Google",
                         "isCorrect": true
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Então ela declarou-lhe que não voltaria mais.",
+                        "text": "Apple",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "O cocheiro propôs-lhe voltar a primeira travessa, e ir por outro caminho.",
+                        "text": "Microsoft",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "Ele, para lhe ser agradável, estava sempre discretamente afastado.",
+                        "text": "IBM",
                         "isCorrect": false
                     }
                 ]
             },
             {
                 "id": 2,
-                "text": "Qual é o sujeito da seguinte oração:  'Os alunos estudaram para a prova com dedicação? ' ",
+                "text": "O que é o HTML usado para ?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Estudaram",
+                        "text": "Programar sistemas operacionais",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Para a prova",
+                        "text": "Desenvolver aplicativos móveis",
                         "isCorrect": false
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Dedicação",
+                        "text": "Gerenciar bancos de dados",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "Alunos",
+                        "text": "Criar e estruturar páginas da web",
                         "isCorrect": true
                     }
                 ]
             },
             {
                 "id": 3,
-                "text": "Qual das palavras abaixo é um advérbio?",
+                "text": "Qual é o objetivo principal do uso da tecnologia Blockchain?",
                 "options": [
                     {
                         "id": 1,
                         "label": "A",
-                        "text": "Alegre",
+                        "text": "Melhorar a qualidade das imagens digitais",
                         "isCorrect": false
                     },
                     {
                         "id": 2,
                         "label": "B",
-                        "text": "Alegremente",
+                        "text": "Registrar transações de maneira segura e descentralizada",
                         "isCorrect": true
                     },
                     {
                         "id": 3,
                         "label": "C",
-                        "text": "Alegria",
+                        "text": "Armazenar grandes quantidades de dados em servidores centralizados",
                         "isCorrect": false
                     },
                     {
                         "id": 4,
                         "label": "D",
-                        "text": "Alegrou",
+                        "text": "Facilitar a comunicação em tempo real",
                         "isCorrect": false
                     }
                 ]

@@ -40,7 +40,7 @@
         display: flex;
     }
     .question {
-        font-size: 40px;
+        font-size: 2em;
         margin-bottom: 20px;
         display: flex;
     }
