@@ -15,28 +15,12 @@ const props = defineProps({
 
 const containeRef = ref(null);
 
-onMounted(() => {
-  const container = containeRef.value;
-  const text = container.innerText;
-  const colors = ["#EC0F90", "#0AAF8C", "#9AD70E", "#F49822", "#FE3A1D"];
-  container.innerHTML = "";
-
-  text.split("").forEach((char, index) => {
-    const span = document.createElement("span");
-    span.innerText = char;
-    span.className = "colored-letter";
-    span.style.color = colors[index % colors.length];
-    container.appendChild(span);
-  });
-});
-
 watch(search, () => {
   quizes.value = q.filter((quiz) =>
     quiz.name.toLowerCase().includes(search.value.toLocaleLowerCase())
   );
 });
 </script>
-
 <template>
   <body>
     <header>
@@ -67,7 +51,7 @@ watch(search, () => {
 @import url("https://fonts.googleapis.com/css2?family=Freeman&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
 body {
-  background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/11005174-fundo-de-educacao-criativa-com-material-escolar-vetor.jpg");
+  background-color: rgba(11, 189, 239, 0.748);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -78,17 +62,20 @@ body {
 }
 
 header {
-  margin-top: 200px;
+  margin: auto;
   align-items: center;
   flex-direction: column;
   text-align: center;
 }
 
 header h1 {
+  padding: 8px;
   margin-bottom: 60px;
   text-align: top;
   font-weight: bold;
   font-family: "Josefin Sans", sans-serif;
+  border: 2px solid rgb(2, 5, 85);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.549);
 }
 
 header input {
